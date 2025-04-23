@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indry & Fahrul Wedding</title>
+    <!-- bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- countdown -->
+    <script src="https://cdn.jsdelivr.net/npm/simplycountdown.js"></script>
+    <link rel="stylesheet" href="countdown/default.css"/>
+    <!-- AOS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        AOS.init ({
+        once: true,
+        duration: 800,
+        });
+      });
+    </script>
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- bootstraps -->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-black">
+    <!-- AOS -->
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script> 
+        <main>
+            <h1>Indry & Fahrul</h1>
+            <h4>Kepada Bapak/Ibu/Saudara/i, <br> <span></span></h4>
+            
+            <a href="#undangan" class="btn btn-lg btn-light shadow w-100 mt-4" onclick="showInvitationAndEnableScroll()">Lihat Undangan</a>
+            <div id="audio-container">
+              <audio id="song" loop>
+                <source src="music/ANDMESH - ANUGERAH TERINDAH (VIDEO LIRIK) LIRIK LAGU TERBARU - StarHits Music.mp3" type="audio/mp3">
+              </audio>
+
+            <div class="audio-icon-wrapper" style="display: none;">
+              <i class="bi bi-disc"></i>
+            </div>
+            </div>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">Indry & Fahrul</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Indry & Fahrul</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#info">Information</a>
+                    <a class="nav-link" href="#event">Event</a>
+                    <a class="nav-link" href="#story">Our Story</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                    <a class="nav-link" href="#rsvp">RSVP</a>
+                    <a class="nav-link" href="#gifts">Gifts</a>
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-8 text-center">
+                <h2 data-aos="zoom-in">Join Us to Celebrate The Wedding of</h2>
+                <h3 data-aos="zoom-in" data-aos-delay="300">Indry & Fahrul</h3>
+                <p>Akan melangsungkan pernikahan dalam:</p>
+
+          <div class="countdown-wrapper">
+            <div id="countdown" class="simply-countdown"></div>
+            <script>
+                simplyCountdown('#countdown', {
+                    year: 2025,
+                    month: 5,
+                    day: 4,
+                    hours: 0,
+                    minutes: 0,
+                    seconds: 0 
+                });
+            </script>
+          </div>
+        </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div>
+          <h1 data-aos="zoom-in" data-aos-delay="600"><i class="bi bi-suit-heart-fill"></i>Save the Date<i class="bi bi-suit-heart-fill"></i></h1>
+          <h2 data-aos="zoom-in" data-aos-delay="600" style="margin-bottom: 40px;">4 Mei 2025</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="teks-highlight col-md-5 text-center">
+            <h4 data-aos="fade-up" data-aos-delay="800">"Dan di antara tanda-tanda kekuasaanNya ialah Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda kebesaran Allah bagi kaum yang berpikir."</h4>
+            <h5 data-aos="zoom-in" data-aos-delay="900">Q.S. Ar-Rum: 21</h5>
+          </div>
+        </div>
+
+        <section id="couple" class="py-5">
+          <div class="container">
+        
+            <!-- Indry -->
+            <div class="d-flex flex-row align-items-center couple-block mt-5">
+              <div class="couple-text text-end me-4" data-aos="zoom-out">
+                <h3 class="fw-bold couple-name">Indry Novyanti Anjula, A.Md</h3>
+                <p class="couple-desc">Putri Kedua dari<br>Bapak Aca Apandi<br>& Ibu Julaeha</p>
+              </div>
+              <img src="img/Indry.jpg" alt="Indry Novyanti Anjula" class="couple-img mb-3 mb-md-0 me-md-0" data-aos="zoom-in">
+            </div>
+        
+            <!-- Fahrul -->
+            <div class="d-flex flex-row align-items-center couple-block mt-5">
+              <img src="img/Fahrul.jpg" alt="Fahrul Rusdianto" class="couple-img mb-3 mb-md-0 me-md-4" data-aos="zoom-in">
+              <div class="couple-text text-start" data-aos="zoom-out">
+                <h3 class="fw-bold couple-name">Fahrul Rusdianto</h3>
+                <p class="couple-desc">Putra Kedua dari<br>Bapak Udi Rusdi<br>& Ibu Susilawati</p>
+              </div>
+            </div>
+        
+          </div>
+        </section>        
+        
+      </div>
+    </section>
+
+    <section id="event" class="event">
+      <div class="video-background-section">
+        <video autoplay muted loop playsinline class="bg-video">
+          <source src="img/event-bg.mp4" type="video/mp4">
+        </video>
+      <div class="video-overlay"></div>
+      </div>
+
+      <div class="container position-relative">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-8 text-white">
+            <h2>Event Wedding</h2>
+            <p class="alamat">Lokasi Acara: <br> Kp. Tajurhalang RT 02/02 Kec. Tajurhalang, <br> Desa Tajurhalang, Kab. Bogor</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.347873820609!2d106.7729621!3d-6.4775483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c30aded481fd%3A0xddcf5ff6b69c2c90!2sWifi%20Koin!5e0!3m2!1sid!2sid!4v1745385778735!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://maps.app.goo.gl/tyawZsXKUQVWWhgP7?g_st=awb" target="_blank" class="btn btn-light btn-sm">Klik Map</a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-sm-6 mb-4">
+            <div class="card card-glass custom-event-card shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-bold mb-3">Akad Nikah</h5>
+                <i class="bi bi-calendar-heart display-4 mb-2 d-block"></i>
+                <p class="card-text fs-5 mb-1">Minggu, 4 Mei 2025</p>
+                <i class="bi bi-clock display-5 mt-3 d-block"></i>
+                <p class="card-text fs-5">10.00 WIB</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <div class="card card-glass custom-event-card shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-bold mb-3">Resepsi</h5>
+                <i class="bi bi-calendar-heart display-4 mb-2 d-block"></i>
+                <p class="card-text fs-5 mb-1">Minggu, 4 Mei 2025</p>
+                <i class="bi bi-clock display-5 mt-3 d-block"></i>
+                <p class="card-text fs-5">11.00 WIB - Selesai</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function(){
+        const StorySlides = document.querySelectorAll('#story .slideshow-background .slide');
+        let currentStorySlide = 0;
+      
+        function showStorySlide(index) {
+          StorySlides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (i === index) slide.classList.add('active');
+          });
+        }
+      
+        function nextStorySlide() {
+          currentStorySlide = (currentStorySlide + 1) % StorySlides.length;
+          showStorySlide(currentStorySlide);
+        }
+      
+        showStorySlide(currentStorySlide);
+        setInterval(nextStorySlide, 5000);
+        });
+      </script>
+      
+      <!-- slideshow background -->
+       <div class="slideshow-background">
+        <div class="slide active" style="background-image: url(img/bg-sld-1.jpg);"></div>
+        <div class="slide" style="background-image: url(img/bg-sld-2.jpg);"></div>
+        <div class="slide" style="background-image: url(img/bg-sld-3.jpg);"></div>
+       </div>
+
+      <div class="container text-center text-white">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10">
+            <h2>Our Story</h2>
+            <p>Lebih dari sekadar pertemuan, <br> takdir mempertemukan dua jiwa yang kini berjalan beriringan dalam satu irama.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-panel left">
+                  <div class="timeline-heading">
+                    <h3>Langkah Awal yang Mempertemukan Kami</h3>
+                    <span>2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Pada pertengahan tahun 2021 dan di tengah kesibukan Jakarta, jejak langkah kami saling bersinggungan. Pertemuan singkat kami di salah satu perusahaan menjadi permulaan dari perjalanan panjang kami hingga hari ini.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="150">
+                <div class="timeline-panel right">
+                  <div class="timeline-heading">
+                    <h3>Dua Hati, Satu Tujuan</h3>
+                    <span>Mei 2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Waktu berlalu, kebersamaan telah menumbuhkan keyakinan di hati kami. Pada bulan Mei 2024, kami sepakat untuk melangkah lebih jauh, membangun masa depan bersama. Kami berkomitmen untuk saling mendukung, menguatkan, dan mencintai, selama yang kami mampu.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="150">
+                <div class="timeline-panel left">
+                  <div class="timeline-heading">
+                    <h3>Silaturahmi yang Mengiringi Momen Lamaran</h3>
+                    <span>9 Februari 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Kedatangan keluarga Fahrul ke rumah bukan hanya sekadar silaturahmi, namun juga membawa kabar bahagia. Fahrul dengan segenap keberanian dan cintanya melamar dengan tulus, meminta restu untuk menyatukan dua keluarga menjadi satu.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="150">
+                <div class="timeline-panel right">
+                  <div class="timeline-heading">
+                    <h3>Janji Suci Pernikahan</h3>
+                    <span>4 Mei 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Dengan penuh sukacita dan restu orang-orang terkasih, kami akan memulai lembaran baru kehidupan bersama sebagai suami dan istri pada tanggal 4 Mei 2025. Janji suci yang akan diucapkan dalam momen akad nikah menjadi sebuah awal bagi kami untuk berbagi mimpi dan hidup berdua. Sebuah momen sakral yang akan menjadi semakin indah dengan kehadiran dan doa restu dari kalian.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section py-5">
+      <div class="overlay"></div>
+      <div class="container text-center position-relative">
+        <h2 class="mb-4">Our Gallery</h2>
+        <p class="mb-5">Momen-momen yang ingin kami abadikan.</p>
+    
+        <div class="row mb-4">
+          <div class="col col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <a href="img/gal-1.jpg" data-toggle="lightbox">
+            <img src="img/gal-1.jpg" class="img-fluid rounded shadow" alt="1 of 2">
+            </a>
+          </div>
+          <div class="col col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="img/gal-2.jpg" data-toggle="lightbox">
+            <img src="img/gal-2.jpg" class="img-fluid rounded shadow" alt="2 of 2">
+            </a>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="img/gal-3.jpg" data-toggle="lightbox">
+            <img src="img/gal-3.jpg" class="img-fluid rounded shadow" alt="1 of 3">
+            </a>
+          </div>
+          <div class="col col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <a href="img/gal-4.jpg" data-toggle="lightbox">
+            <img src="img/gal-4.jpg" class="img-fluid rounded shadow" alt="2 of 3">
+            </a>
+          </div>
+          <div class="col col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <a href="img/gal-5.jpg" data-toggle="lightbox">
+            <img src="img/gal-5.jpg" class="img-fluid rounded shadow" alt="3 of 3">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <section id="rsvp" class="rsvp">
+      <div class="container justify-content-center align-items-center text-center">
+          <h2>RSVP</h2>
+          <p>Dengan segala kerendahan hati, <br> kami ingin mengundang Anda <br> untuk menjadi bagian dari hari yang akan kami kenang selamanya. <br> Harap konfirmasi kehadiran Anda melalui form berikut.</p>
+
+          <form id="rsvp-form">
+              <div class="mb-3">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                  <label for="attendance" class="form-label">Apakah Anda akan hadir?</label>
+                  <select class="form-select" id="attendance" name="attendance" required>
+                      <option value="Yes">Ya</option>
+                      <option value="No">Tidak</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Ucapan/Doa</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+
+          <div id="response-message" class="mt-3"></div>
+
+          <div id="messages-container" class="mt-5">
+              <h3>Ucapan & Doa dari Tamu</h3>
+              </div>
+      </div>
+  </section>
+
+  <section id="gifts" class="gifts position-relative overflow-hidden py-5" data-aos="fade-up">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="img/event-bg.mp4" type="video/mp4">
+    </video>
+    <div class="bg-overlay"></div>
+    <div class="container text-center position-relative">
+      <h2 class="mb-4" data-aos="fade-down" data-aos-delay="100">Gifts</h2>
+      <p class="mb-5" data-aos="fade-down" data-aos-delay="200">Doa restu serta kehadiran Anda merupakan hadiah terbaik bagi kami. <br> Namun, jika Anda berniat mengirimkan hadiah, berikut informasi rekening dan alamat kami:</p>
+  
+      <div class="row justify-content-center">
+        <!-- Rekening 1 -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">BRI</h5>
+              <p class="card-text">No. Rekening:<br><strong id="rekening1">784601019837538</strong><br>Atas nama: <br><strong>INDRY NOVYANTI ANJULA</strong></p>
+              <button class="btn btn-outline-primary btn-sm" onclick="salinRekening('rekening1')">Salin Nomor</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Rekening 2 -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">Bank Mandiri</h5>
+              <p class="card-text">No. Rekening:<br><strong id="rekening2">1640002601963</strong><br>Atas nama: <br><strong>INDRY NOVYANTI ANJULA</strong></p>
+              <button class="btn btn-outline-primary btn-sm" onclick="salinRekening('rekening2')">Salin Nomor</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Rekening 3 -->
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">BNI</h5>
+              <p class="card-text">No. Rekening:<br><strong id="rekening3">1536166222</strong><br>Atas nama: <br><strong>FAHRUL RUSDIANTO</strong></p>
+              <button class="btn btn-outline-primary btn-sm" onclick="salinRekening('rekening3')">Salin Nomor</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Alamat Pengiriman Hadiah -->
+      <div class="mt-5 text-start mx-auto" style="max-width: 600px;" data-aos="zoom-in" data-aos-delay="400">
+        <h5 class="mb-3 text-center">Alamat Pengiriman Hadiah Fisik</h5>
+        <div class="border rounded p-3 shadow-sm">
+          <p class="mb-1 text-center">📍 <strong>Alamat:</strong></p>
+          <p id="alamat-hadiah" class="text-center">Jl. Kp. Tajurhalang RT 02/02 Kec. Tajurhalang, Desa Tajurhalang, <br> Kab. Bogor, Jawa Barat</p>
+          <button class="btn btn-outline-secondary btn-sm d-block mx-auto" onclick="salinAlamat()">Salin Alamat</button>
+        </div>
+      </div>
+  
+      <p class="mt-4 fst-italic text-muted">Kami sangat menghargainya. Terima kasih. 💝</p>
+    </div>
+  </section>  
+  
+  <section id="penutup" class="closing-with-bg text-center text-white d-flex align-items-center justify-content-center">
+    <div class="overlay"></div>
+    <div class="content container position-relative">
+      <h2 class="mb-4">Terima Kasih</h2>
+      <p class="lead mb-4">
+        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i <br> berkenan hadir dan memberikan doa restu.
+      </p>
+      <p class="mb-4">
+        Kami yang berbahagia,
+      </p>
+      <h4 class="fw-bold">Indry & Fahrul</h4>
+      <p class="fst-italic mt-3 text-light">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri..." <br> <span class="text-white-50">– QS. Ar-Rum: 21</span></p>
+    </div>
+  </section>  
+
+  <footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-2">
+        Designed with ❤️ by 
+        <a href="https://instagram.com/aullnisa/" target="_blank" class="text-decoration-none text-warning">@aullnisa</a>
+      </p>
+      <p class="mb-0">
+        <a href="https://sites.google.com/view/aullnisa/" target="_blank" class="text-decoration-none text-light"><i class="bi bi-globe"></i>
+          Visit my portfolio
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+      const form = document.getElementById('rsvp-form');
+      const responseMessage = document.getElementById('response-message');
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxAi9JoWRxvVRz6eYOvJFbwlhSTkjiBYRFcS_rT4Udz2Qy60FrPACJktyk0k8faPuU3/exec'; // Pastikan URL ini benar
+
+      form.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          const formData = new FormData(form); // Lebih ringkas mengambil data form
+
+          fetch(scriptURL, {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+              if (data.result === 'success') {
+                  responseMessage.innerHTML = '<div class="alert alert-success">Terima kasih atas konfirmasi dan doanya!</div>';
+                  form.reset();
+                  fetchMessages(); // Refresh daftar ucapan
+              } else {
+                  responseMessage.innerHTML = '<div class="alert alert-danger">Gagal mengirim data. Silakan coba lagi.</div>';
+              }
+          })
+          .catch(error => {
+              console.error(error);
+              responseMessage.innerHTML = '<div class="alert alert-danger">Terjadi kesalahan. Silakan coba lagi.</div>';
+          });
+      });
+
+      function fetchMessages() {
+  fetch(scriptURL)
+    .then(response => response.json())
+    .then(data => {
+      const messagesContainer = document.getElementById('messages-container');
+      messagesContainer.innerHTML = '<h3>Ucapan & Doa dari Tamu</h3>';
+
+      if (data.result === 'success' && Array.isArray(data.messages)) {
+        data.messages.reverse().forEach(message => {
+          const messageElement = document.createElement('div');
+          messageElement.classList.add('message', 'p-3', 'mb-3', 'bg-light', 'border', 'rounded');
+          messageElement.innerHTML = `
+            <h5>${message.name} <span class="badge bg-${message.attendance === 'Yes' ? 'success' : 'secondary'}">${message.attendance}</span></h5>
+            <p>${message.message}</p>
+          `;
+          messagesContainer.appendChild(messageElement);
+        });
+      } else {
+        messagesContainer.innerHTML += '<p class="text-muted">Belum ada ucapan masuk.</p>';
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching messages:', error);
+    });
+}
+
+      document.addEventListener('DOMContentLoaded', fetchMessages);
+  </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+   
+    <script>
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const offcanvasElement = document.querySelector('.offcanvas');
+      const stickyTop = document.querySelector('.sticky-top');
+
+      offcanvasElement.addEventListener('show.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'visible';
+      });
+
+      const offcanvas = document.querySelector('.offcanvas');
+      offcanvasElement.addEventListener('hidden.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      function disableScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        const rootElement = document.querySelector(":root");
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function () { }
+        const rootElement = document.querySelector(":root");
+        rootElement.style.scrollBehavior = 'smooth';
+      }
+
+      function showInvitationAndEnableScroll () {
+        showInvitation();
+        enableScroll();
+        playAudio();
+      }
+
+      function playAudio() {
+        const song = document.querySelector('#song');
+        song.play();
+      }
+
+      function showInvitation() {
+    const invitationSection = document.querySelector('#undangan');
+    if (invitationSection) {
+      invitationSection.style.display = 'block';  
+    }
+  }
+      disableScroll();
+    </script>
+
+<script>
+  function salinRekening(id) {
+    const rekening = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(rekening)
+      .then(() => alert('Nomor berhasil disalin!'))
+      .catch(() => alert('Gagal menyalin nomor.'));
+  }
+
+  function salinAlamat() {
+    const alamat = document.getElementById('alamat-hadiah').innerText;
+    navigator.clipboard.writeText(alamat)
+      .then(() => alert('Alamat berhasil disalin!'))
+      .catch(() => alert('Gagal menyalin alamat.'));
+  }
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+  const urlParams = new URLSearchParams(window.location.search);
+  const nama = urlParams.get('nama');
+  
+  const namaContainer = document.querySelector('.hero h4 span');
+  namaContainer.innerText = decodeURIComponent (nama);
+  });
+</script>
+  </body>
+</html>
